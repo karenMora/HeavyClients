@@ -70,4 +70,4 @@ Modifique el código de app.js de manera que sea posible cambiar entre el 'apimo
 Revise la documentación y ejemplos de los estilos de Bootstrap (ya incluidos en el ejercicio), agregue los elementos necesarios a la página para que sea más vistosa, y más cercana al mock dado al inicio del enunciado.
 
 
------------//-----------//-----------Creado por Karen Mora-----------//-----------//-----------
+-----------//-----------//-----------//-----------Creado por Karen Mora-----------//-----------//-----------//-----------

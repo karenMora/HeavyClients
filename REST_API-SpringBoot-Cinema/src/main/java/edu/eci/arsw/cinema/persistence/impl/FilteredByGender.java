@@ -5,7 +5,7 @@
  */
 package edu.eci.arsw.cinema.persistence.impl;
 
-import com.sun.javafx.scene.control.skin.VirtualFlow;
+
 import edu.eci.arsw.cinema.model.Cinema;
 import edu.eci.arsw.cinema.model.CinemaFunction;
 import edu.eci.arsw.cinema.model.Movie;

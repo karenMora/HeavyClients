@@ -4,15 +4,22 @@ Utilizando el proyecto springboot de cinemasque sirven para el uso de librerias 
 
 !["Error"](img/uno.png)
 
+!["Error"](img/pom.png)
+
 Cree el directorio donde residirá la aplicación JavaScript. Como se está usando SpringBoot, la ruta para poner en el mismo contenido estático (páginas Web estáticas, aplicaciones HTML5/JS, etc) es:
 
 !["Error"](img/dos.png)
+
+!["Error"](img/carpetas.png)
 
 # Construyendo la página inicial
 
 !["Error"](img/tres.png)
 
 Agregue un archivo index.html y escriba el código necesario para que luzca como la imagen 1
+
+!["Error"](img/pagInicial.png)
+
 Agregue el siguiente código para agregar bootstrap y jquery a su proyecto
 
 !["Error"](img/cuatro.png)
@@ -20,6 +27,8 @@ Agregue el siguiente código para agregar bootstrap y jquery a su proyecto
 Corra la aplicación y verifique:
 - Que la aplicación corra correctamente
 - Que no tenga errores de 404 sobre la consola del navegador para garantizar que las librerías cargaron correctamente
+
+!["Error"](img/funcionando.png)
 
 # Logica Front-end
 Ahora, va a crear un Módulo JavaScript que, a manera de controlador, mantenga los estados y ofrezca las operaciones requeridas por la vista. Para esto tenga en cuenta el patrón Módulo de JavaScript, y cree un módulo en la ruta static/js/app.js.

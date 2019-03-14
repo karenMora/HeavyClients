@@ -12,7 +12,6 @@ import edu.eci.arsw.cinema.services.CinemaServices;
 import java.lang.ProcessBuilder.Redirect.Type;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import static javafx.scene.input.KeyCode.X;
 //import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

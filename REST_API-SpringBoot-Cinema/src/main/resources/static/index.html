@@ -11,6 +11,10 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="/webjars/jquery/jquery.min.js"></script>
         <script src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script src="/js/APImock.js"></script>
+        <script src="/js/app.js"></script>
+        
         <link rel="stylesheet"
               href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
     </head>
@@ -18,40 +22,26 @@ and open the template in the editor.
     <body>
         <div id="principal" class="container">
             <br><br><br>
+            <br><br><br>
             <div class="container" style="text-align: center">
+                
                 <form name="register" method="POST" action="">
-                    <input name="buscar" type="text" class="Input" value="" id="texto"size="60"/>
-                    <a class="btn btn-primary btn-lg" href='javascript:;' onclick="buscar();" role="button" style="text-align: end">Buscar</a>
-                    
+                    <input name="buscar" type="text" class="Input" value="" id="texto" size="60"/>
+                    <button name="button" onclick="app.getCinemaByName($('#texto').val())">Buscar</button>
                     
                     
                 </form>
-            </div>
-            <br><br><br>
-            <div class="container" style="text-align: center">
-                <table border="1" style="margin: 0 auto; text-align: center">
+                <br><br><br>
+                <br><br><br>
+                <table id="ccine" style="margin: 0 auto; text-align: center">
                     <tr style="background: darkgray; font-size:140%;text-align: center">
                         <td>&nbsp;&nbsp;<strong>Cinema</strong>&nbsp;&nbsp;</td>
                         <td>&nbsp;&nbsp;<strong>Función</strong>&nbsp;&nbsp;</td>
                         <td>&nbsp;&nbsp;<strong>Sillas</strong>&nbsp;&nbsp;</td>
                         <td>&nbsp;&nbsp; <strong>Fecha</strong>&nbsp;&nbsp;</td>
                     </tr>
-
-                    <tr>
-                        <td>CinemaX</td>
-                        <td>FuncionY</td>
-                        <td>34</td>
-                        <td>20-10-2018</td>
-                    </tr>
                 </table>
             </div>
         </div>
-        <!--script language="JavaScript" type="text/javascript" src="Link al archivo js"></script-->
-        <script>
-        function buscar(){
-         var porId=document.getElementById("texto").value;
-         alert(porId);
-        }
-        </script>
     </body>
 </html>

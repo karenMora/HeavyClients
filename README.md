@@ -56,18 +56,34 @@ Agregue al módulo 'app.js' una operación pública que permita actualizar el li
 
 	- Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un cinema existente, se cargue el listado de funciones del mismo.
 
-# Entrega próxima semana
 
+!["Error"](img/LogicaFronEnd.png)
+!["Error"](img/LogicaFronEnd1.0.png)
+!["Error"](img/LogicaFronEnd2.0.png)
+
+
+
+# Entrega próxima semana
 
 Muestre gráficamente el estado actual de las sillas de la función de un cine escogida
 
-Verifique que la aplicación ahora, además de mostrar el listado de las funciones de un cinema, permita seleccionar uno de éstos y mostrar el estado de la sala gráficamente. 
+
+
+Verifique que la aplicación ahora, además de mostrar el listado de las funciones de un cinema, permita seleccionar uno de éstos y mostrar el estado de la sala gráficamente.
+
+
 
 Una vez funcione la aplicación (sólo front-end), haga un módulo (llámelo 'apiclient') que tenga las mismas operaciones del 'apimock', pero que para las mismas use datos reales consultados del API REST. Para lo anterior revise cómo hacer peticiones GET con jQuery, y cómo se maneja el esquema de callbacks en este contexto
 
+
+
 Modifique el código de app.js de manera que sea posible cambiar entre el 'apimock' y el 'apiclient' con sólo una línea de código.
 
+
+
 Revise la documentación y ejemplos de los estilos de Bootstrap (ya incluidos en el ejercicio), agregue los elementos necesarios a la página para que sea más vistosa, y más cercana al mock dado al inicio del enunciado.
+
+
 
 
 -----------//-----------//-----------//-----------Creado por Karen Mora-----------//-----------//-----------//-----------
